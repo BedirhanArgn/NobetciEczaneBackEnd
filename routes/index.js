@@ -2,9 +2,7 @@ var express = require('express');
 var parser=require('body-parser')
 var router = express.Router();
 var request = require('request');
-//var data = require('../turkiye');
 const cheerio = require('cheerio');
-var scrap = require('../service/scraping');
 
 /* GET home page. */
 
